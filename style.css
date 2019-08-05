@@ -1,0 +1,136 @@
+a
+{
+  color: #dddddd;
+  text-decoration: none;
+  border-radius: 25px;
+  background-color: #34495E;
+  padding: 0% 1.5% 0% 1.5%;
+}
+
+.nav a
+{
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+  padding: 0% 1.5% 0% 1.5%;
+}
+
+body
+{
+  background-color: #4D5656;
+  color: #FFF;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul
+{
+  list-style-type: none;
+  overflow: hidden;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+}
+
+.nav li
+{
+  display: inline;
+  padding-left:  10px;
+  padding-right: 10px;
+}
+
+li a:hover {
+  background-color: #ccf;
+}
+
+.nav
+{
+  width: 98%;
+  height: 8%;
+  min-width: 500px;
+  min-height: 40px;
+  background-color: #333;
+  margin: 0;
+  padding: 1%;
+  border-bottom: 5px solid #34495E;
+}
+
+.header
+{
+  padding-left: 5%;
+  font-size: 50px;
+}
+
+.main
+{
+  width: 90%;
+  height: 90%;
+  margin: auto;
+}
+
+.main-title
+{
+  color: #acf;
+  font-size: 30px;
+}
+
+.main .title .subject
+{
+  width: 0%;
+}
+
+.main .subject
+{
+  width: 100%;
+  background: #FFF;
+  margin-top: 1.5%;
+  padding: 1.5%;
+  color: #fff;
+  border-left: 5px solid #34495E;
+  border-right: 5px solid #34495E;
+  border-top: 5px solid #34495E;
+  border-bottom: 5px solid #34495E;
+  border-radius: 25px;
+}
+
+.main .big
+{
+  margin-right: 1%;
+}
+
+
+.main .small .subject
+{
+  width: 100%;
+}
+
+.main .small .left
+{
+  float: left;
+  width: 49%;
+  margin: auto;
+}
+
+.main .small .right
+{
+  float: right;
+  width: 49%;
+  margin: auto;
+}
+
+.main .subject .title
+{
+  color: #257;
+  font-size: 30px;
+}
+
+.main .subject .content
+{
+  color: #000;
+}
+
+.nav .current:hover
+{
+  background-color: #2ECC71;
+}
