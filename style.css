@@ -145,3 +145,13 @@ li a:hover {
   color: rgb(18, 55, 92);
   font-size: 120%;
 }
+
+.no-bullets
+{
+  list-style: none;
+}
+
+.no-bullets li{
+  margin-bottom: 0.5%;
+  height: 5%;
+}
