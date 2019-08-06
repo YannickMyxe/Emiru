@@ -21,35 +21,20 @@ h1
   border-bottom: 5px solid rgb(202, 202, 202);
 }
 
-.nav ul
-{
-  list-style-type: none;
-  overflow: hidden;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-}
-
-.nav li
-{
-  display: inline;
-  padding-left:  10px;
-  padding-right: 10px;
-}
-
 .nav a:hover {
   background-color: rgba(221, 248, 215, 0.555);
 }
 
 .nav
 {
-  width: 98%;
+  width: 95%;
   height: 8%;
-  min-width: 500px;
-  min-height: 40px;
+  min-height: 50px;
   background-color: #333;
-  margin: 0;
-  padding: 1%;
-  border-bottom: 5px solid #34495E;
+  white-space: nowrap;
+  overflow-x: auto;
+  padding-left: 5%;
+  padding-top: 2%;
 }
 
 .header
