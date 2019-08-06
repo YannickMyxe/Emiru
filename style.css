@@ -1,12 +1,3 @@
-a
-{
-  color: #dddddd;
-  text-decoration: none;
-  border-radius: 25px;
-  background-color: #34495E;
-  padding: 0% 1.5% 0% 1.5%;
-}
-
 .nav a
 {
   color: #fff;
@@ -45,8 +36,8 @@ h1
   padding-right: 10px;
 }
 
-li a:hover {
-  background-color: #ccf;
+.nav a:hover {
+  background-color: rgba(221, 248, 215, 0.555);
 }
 
 .nav
@@ -138,7 +129,7 @@ li a:hover {
 
 .nav .current:hover
 {
-  background-color: #2ECC71;
+  background-color: rgba(14, 245, 110, 0.555);
 }
 .content-header
 {
@@ -152,6 +143,25 @@ li a:hover {
 }
 
 .no-bullets li{
-  margin-bottom: 0.5%;
-  height: 5%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  height: 8%;
+}
+
+.light-btn
+{
+  background-color: rgb(44, 111, 255);
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  padding: 1.5% 1.5% 1.5% 1.5%;
+}
+
+.light-btn:hover
+{
+  background-color: rgb(27, 27, 27);;
+}
+
+li{
+  margin: 0.4% 0% 0.4% 0%;
 }
