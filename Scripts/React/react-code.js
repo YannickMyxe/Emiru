@@ -2,17 +2,10 @@
 
 const e = React.createElement;
 const dev_path = "file:///D:/Users/vankerya/Downloads/Emiru-master/"
-const web_path = "https://www.emiru.netlify.com/"
+const web_path = "https://emiru.netlify.com/"
+const dev = false
 
-const tryRequire = (path) => {
-  try {
-   return require(`${path}`);
-  } catch (err) {
-   return null;
-  }
-};
-
-const path = tryRequire(dev_path) ? web_path :  dev_path
+const path = (dev) ? dev_path :  web_path
 
 class About extends React.Component {
   constructor(props) {
@@ -79,7 +72,12 @@ class Charts extends React.Component {
 
   render() {
     if (this.state.liked) {
-      return '';
+      return e
+      (
+        'a',
+        {href: path + "Pages/Charts/index.html"},
+       'Charts'
+      );
     }
 
     return e(
