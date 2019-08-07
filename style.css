@@ -160,3 +160,8 @@ li{
   font-size: 50%;
   color: rgb(114, 114, 114);
 }
+
+.inline
+{
+  display: inline;
+}
