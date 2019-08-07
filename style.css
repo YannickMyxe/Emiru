@@ -128,9 +128,7 @@ h1
 }
 
 .no-bullets li{
-  margin-bottom: 25px;
-  margin-top: 25px;
-  height: 40px;
+  height: 80px;
 }
 
 .light-btn
@@ -139,7 +137,7 @@ h1
   color: white;
   text-decoration: none;
   border-radius: 25px;
-  padding: 1.5% 1.5% 1.5% 1.5%;
+  padding: 2% 3% 2% 3%;
 }
 
 .light-btn:hover
