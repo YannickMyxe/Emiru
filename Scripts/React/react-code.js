@@ -3,7 +3,7 @@
 const e = React.createElement;
 const dev_path = "file:///D:/Users/vankerya/Downloads/Emiru-master/"
 const web_path = "https://emiru.netlify.com/"
-const dev = true
+const dev = false
 
 const path = (dev) ? dev_path :  web_path
 
