@@ -47,10 +47,19 @@ h1
 .main
 {
   width: 90%;
-  height: 90%;
+  height: 100%;
   margin: auto;
+  content: "";
+  display: table;
+  clear: both;
 }
 
+.main::after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
 .main-title
 {
   color: #acf;
@@ -78,13 +87,13 @@ h1
 
 .main .big
 {
-  margin-right: 1.5%;
+  width: 96.5%;
 }
 
 
 .main .small .subject
 {
-  width: 100%;
+  width: 96.5%;
 }
 
 .main .small .left
@@ -99,6 +108,12 @@ h1
   float: right;
   width: 48%;
   margin: auto;
+}
+
+.main .small .right::after
+{
+  float: none;
+  clear: both;
 }
 
 .main .subject .title
@@ -167,4 +182,11 @@ li{
 .inline::after
 {
   display: block;
+}
+
+.footer
+{
+  margin-bottom: 0%;
+  height: 10%;
+  background-color: rgba(0, 0, 0, 0.384);
 }
