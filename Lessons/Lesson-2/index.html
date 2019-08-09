@@ -1,5 +1,6 @@
 <head>
         <link href='../../style.css' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Blinker&display=swap" rel="stylesheet">
         <link href="fontawesome/css/all.css" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
       <title>Emiru | Lesson 2</title>
@@ -12,7 +13,7 @@
             <p class="inline" id="about">About</p>
         </div>
     
-    <div class="header"><img src="../../Images/Basics-background.jpg" width="100%"><h1>Back to basics</h1></div>
+    <div class="header"><img src="../../Images/Basics-background.jpg" width="100%"><h1>Back-to-basics</h1></div>
       <div class="main">
         <div class=main-title></div>
         <div class="main-title-subject">
@@ -26,11 +27,22 @@
              </span><br>
              <div class="title" id='sentence'>Normal sentences</div>
              <div class="content">
-                <p>
+                <p class="inline"><br>
                   In Japanese a sentence does not contain any spaces, question marks, exclamation marks. Evry word just follows opon each other. There are some cases where these are used, they use it mostly when they are writing for non native Japanese speakers to make it easyer for them to read and seperate words.
-                  <br>A basic Japanese sentence is made as follows: subject - wa - sentence - desu(or another verb). Where Wa is just the toppic marker, while desu(pronounced as [des]) just means to be.
-                  Example: <br><br>
-                  <b>Emiru</b>: <i>Watashi wa Emiru desu</i> >> <i>I am Emiru.</i><br><br>In Hiragana: わたし は えみる です<br>In katakana: ワタシ ハ エミル デス <br>
+                  <br>A basic Japanese sentence is made as follows: subject -                   
+                  <div class="tooltip">わ
+                    <span class="tooltiptext">Wa<br>
+                    This is the topic marker of the sentence.</span>
+                </div>- sentence - 
+                <div class="tooltip">です(or another verb).
+                    <span class="tooltiptext">desu [des]<br>
+                    To be</span>
+                  </div>
+                  Example: <br>
+                  <div class="tooltip"><b>Emiru</b>: <i>Watashi wa Emiru desu</i>
+                    <span class="tooltiptext">Translation: I am Emiru.</span>
+                  </div>
+                  <br><br>In Hiragana: わたし は えみる です<br>In katakana: ワタシ ハ エミル デス <br>
                 </p>
                   <span class="fa-stack fa-lg"sytle="display: block;">
                       <i class="fas fa-circle fa-stack-2x" style="color:#2196F3"></i>
@@ -39,27 +51,84 @@
                   <div class="title" id='Question'>
                     A typical Japanese Question
                   </div>
-                  <p>
-                  A Japanese yes or no question is very simple, just add <i>Ka</i> at the end of your sentence. 
-                  <br><br><b>Yanniku</b>: <i>Anata wa Emiru desu ka?</i> >> Are you Emiru? <br><br>In Hiragana: あなた は えみる です か
-                  <br>In katakana: アナタ ハ エミル デス カ<br><br>To awnser this question you can say <i>Yes</i> or <i>No</i>. 
-                  In Japanese this is simply <i>hai</i> and <i>iie</i> respectivly.<br>
+                  <p class="inline"><br>
+                  A Japanese yes or no question is very simple, just add <i>Ka</i> at the end of your sentence.<br> 
+                  Now we only need <div class="tooltip">You, for now lets use <i>Anata.</i>
+                    <span class="tooltiptext">More on personal pronouns and how to adress someone in a later lesson.</span>
+                  </div><br>
+                  <br>      
+                  <div class="tooltip"><b>Yanniku</b>: <i>Anata wa Emiru desu ka?</i></i>
+                    <span class="tooltiptext">Translation: Are you Emiru?</span>
+                  </div>
+                  <br><br>In Hiragana: あなた は えみる です か
+                  <br>In katakana: アナタ ハ エミル デス カ<br><br>To awnser this question you can say 
+                  <div class="tooltip">はい
+                    <span class="tooltiptext">hai - Translation: Yes</span>
+                  </div>
+                  or 
+                  <div class="tooltip">いいえ
+                    <span class="tooltiptext">iie - Translation: No</span>
+                  </div>.
                   Back to our original question: <br><br>
-                  <b>Yanniku</b>: Anata wa Emiru desu ka?<br>
-                  <b>Emiru</b>: Hai<br><br>
+                  <div class="tooltip"><b>Yanniku</b>: あなた わ えみる です か<br>
+                      <span class="tooltiptext">Anata wa Emriu desu ka?<br> Are you Emiru?</span>
+                  </div>
+                  <div class="tooltip"><b>Emiru</b>: はい
+                    <span class="tooltiptext">Hai<br> Yes</span>
+                </div>
+
+                  <br><br>
                   And that's it you just responed to your first question! Well done!<br>Now let's get a better awnser than just yes<br>
                   So knowing how to make a basic sentce we would reply with: <i>Yes, i am Emiru</i> or <i>No, i am not emiru</i><br>
                   This time we will say Yes, I am Emiru.<br><br>
-                  <b>Yanniku</b>: Anata wa Emriu desu ka?<br>
-                  <b>Emiru</b>: Hai, Watashi wa Emiru desu.<br><br>
-                  Well done! But what if we asked you if you are someone else? How would you awnser now? Let's take the easy route first, just say <i>No, I am Emiru.</i><br><br>
-                  <b>Yanniku</b>: Anata wa Sakurai desu ka? >> Are you Sakurai? In wich case you awnser:<br>
-                  <b>Emiru</b>: Iie, Watashi wa Emriu desu.<br><br>Well done! Now lets say you are not Sakurai instead, 
-                  you just simply take a normal sentence and instead of desu you add <i>dewa arimasen</i><br><br>
-                  <b>Yanniku</b>: Anata wa Sakurai desu ka?<br>
-                  <b>Emiru</b>: Iie, Watashi wa Sakurai dewa arimasen.<br><br>Good job! Now you can politly say that you are not someone.<br><br><br>
-                  Well done Completing this Course! <-- for now?
-                  <br><br> <br><a href= "../index.html" class="light-btn">Go back</a>             
+                  <div class="tooltip"><b>Yanniku</b>: あなた わ えみる です か
+                    <span class="tooltiptext">Anata wa Emriu desu ka?<br>Are you Emiru?</span>
+                </div>
+                   <br>
+                  <div class="tooltip"><b>Emiru</b>: はい, わたし わ えみる です
+                    <span class="tooltiptext">Hai, Watashi wa Emiru desu.<br>Yes, I am Emriu.</span>
+                </div>
+                <br><br>
+                  Well done! But what if we asked you if you are someone else? How would you awnser now? Let's take the easy route first, just say <i>No, I am Emiru.</i><br><br>                 
+                  <div class="tooltip"><b>Yanniku</b>: あなた わ さくらい です か
+                    <span class="tooltiptext">Anata wa Sakurai desu ka?<br>Are you Sakurai?</span>
+                  </div><br>
+                <div class="tooltip"><b>Emiru</b>: いいえ, わたし わ えみる です
+                  <span class="tooltiptext">Iie, watashi wa Emriu desu.<br>No, I am Emiru.</span>
+                </div>
+                <br><br>
+                Well done! Now lets say you are not Sakurai instead, 
+                you just simply take a normal sentence and instead of desu you add           
+                  <div class="tooltip">でわ ありません
+                    <span class="tooltiptext">dewa arimasen<br>not to be</span>
+                  </div>
+                  <br><br>
+                  <div class="tooltip"><b>Yanniku</b>: あなた わ さくらい です か
+                      <span class="tooltiptext">Anata wa Sakurai desu ka?<br>Are you Sakurai?</span>
+                  </div><br>
+                  <div class="tooltip"><b>Emiru</b>: いいえ, わたし わ さくらい でわ ありません
+                        <span class="tooltiptext">Iie, Watashi wa Sakurai dewa arimasen.<br>No, I am not Sakurai.</span>
+                  </div>
+
+                   <br>
+                   <br><br>Good job! Now you can politly say that you are not someone.
+                   <br>
+                   Now lets say you are not Sakurai but you are Emiru.
+                   <br><br>
+                   <div class="tooltip"><b>Yanniku</b>: あなた わ さくらい です か
+                    <span class="tooltiptext">Anata wa Sakurai desu ka?<br>Are you Sakurai?</span>
+                  </div><br>
+                   <div class="tooltip"><b>Emiru</b>: いいえ, わたし わ さくらい でわ ありません. いわたし わ えみる です
+                    <span class="tooltiptext">Iie, Watashi wa Sakurai dewa arimasen. Watashi wa Emiru desu.<br>No, I am not Sakurai. I am Emiru.</span>
+                  </div>
+                  <br><br>
+                  Normaly Japanese people will use an honorific to speak to someone. More on this in Lesson 3.
+                   <br>
+                  <p class='title'>Well done Completing this Course!</p>
+                  <br><br> <br>
+                  <a href= "../Lesson-1/index.html" class="light-btn">Go back to Lesson 1</a>
+                  <a href= "../index.html" class="light-btn">Lessons Menu</a>
+                  <a href= "../Lesson-3/index.html" class="light-btn">Go To Lesson 3</a>         
                 </p>
              </div> 
             </div>

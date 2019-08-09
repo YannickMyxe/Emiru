@@ -1,3 +1,7 @@
+a{
+  text-decoration: none;
+}
+
 .nav a
 {
   color: #fff;
@@ -10,7 +14,7 @@ body
 {
   background-color: #4D5656;
   color: #FFF;
-  font-family: sans-serif;
+  font-family: sans-serif, blinker;
   font-size: 20px;
   margin: 0;
   padding: 0;
@@ -229,4 +233,28 @@ li{
   {
     padding: 20px 20px 20px 20px;
   }
+}
+
+.tooltip {
+  position: relative;
+  display: inline;
+  border-bottom: 1px solid rgb(155, 65, 155);
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: max-content;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: rgb(93, 231, 255);
+  text-align: Left;
+  border-radius: 150px;
+  padding: 25px 25px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
